@@ -1,12 +1,6 @@
-package domain.estacion;
-
-import static org.junit.Assert.*;
-import org.junit.Test;
-
-import domain.bicicleta.Bicicleta;
-import domain.bicicleta.Movil;
-import domain.tarjetausuario.Autenticacion;
-import domain.tarjetausuario.TarjetaUsuario;
+package edu.teamrocket.bicipalma;
+import static org.junit.jupiter.api.Assertions.*;
+import org.junit.jupiter.api.*;
 
 public class EstacionTest {
 

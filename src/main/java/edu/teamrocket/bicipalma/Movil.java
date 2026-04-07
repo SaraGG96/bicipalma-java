@@ -1,5 +1,5 @@
 package edu.teamrocket.bicipalma;
 
-public class TarjetaUsuario {
+public class Movil {
     
 }
