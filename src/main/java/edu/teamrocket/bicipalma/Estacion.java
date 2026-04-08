@@ -16,7 +16,7 @@ public class Estacion {
 
     @Override
     public String toString() {
-        return String.format("Estación: %d, Dirección: %s, Anclajes: %d", 
+        return String.format("id: %d\ndireccion: %s\nnumeroAnclajes: %d",
                              id, direccion, anclajes.numAnclajes());
     }
 
@@ -29,6 +29,10 @@ public class Estacion {
     }
 
     public void anclarBicicleta(Movil bici) {
+        if (bici == null) {
+            return;
+        }
+
         int posicion = anclajes.seleccionarAnclaje();
         if (posicion != -1) {
             anclajes.ocuparAnclaje(posicion, bici);

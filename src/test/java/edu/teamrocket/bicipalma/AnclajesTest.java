@@ -7,7 +7,7 @@ public class AnclajesTest {
     private Anclajes anclajes;
     private static final int NUM_ANCLAJES = 3;
 
-    @Before
+    @BeforeEach
     public void setUp() {
         anclajes = new Anclajes(NUM_ANCLAJES);
     }
