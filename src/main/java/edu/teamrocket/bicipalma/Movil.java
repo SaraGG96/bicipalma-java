@@ -1,5 +1,5 @@
 package edu.teamrocket.bicipalma;
 
-public class Movil {
-    
+public interface Movil {
+    int getId();
 }
